@@ -1,0 +1,36 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "Test",
+    "Parameters": {
+        "SleepTime": {
+            "Description": "The function sleep time",
+            "Type": "Number"
+        },
+        "DelayTime": {
+            "Description": "The function delay time",
+            "Type": "Number"
+        }
+    },
+    "Resources": {
+        "unicorn": {
+            "Type": "testing::resource::time",
+            "Properties": {
+                "Sleep": {
+                    "Ref": "SleepTime"
+                },
+                "Delay": {
+                    "Ref": "DelayTime"
+                },
+                "Enviroment": "dev"
+            }
+        }
+    },
+    "Outputs" : {
+        "ID" : {
+          "Description" : "The key",
+          "Value" : {
+            "Ref": "unicorn"
+        }
+      }
+    }
+}%

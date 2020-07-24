@@ -1,0 +1,37 @@
+[2020-07-24T16:48:49Z] DEBUG    - Logging set up successfully
+[2020-07-24T16:48:49Z] DEBUG    - Running init: Namespace(command=<function init at 0x10d527950>, force=False, language=None, subparser_name='init', verbose=0, version=False)
+[2020-07-24T16:48:49Z] DEBUG    - Root directory: /Users/brianter/Documents/github/example-time-resource
+[2020-07-24T16:48:49Z] WARNING  - Initializing new project
+[2020-07-24T16:48:49Z] DEBUG    - Loading project file '/Users/brianter/Documents/github/example-time-resource/.rpdk-config'
+[2020-07-24T16:49:00Z] DEBUG    - Resource type identifier: Example::Time::Resource
+[2020-07-24T16:49:02Z] DEBUG    - Language plugin: go
+[2020-07-24T16:49:03Z] DEBUG    - Init started
+[2020-07-24T16:49:41Z] DEBUG    - Writing .gitignore: /Users/brianter/Documents/github/example-time-resource/.gitignore
+[2020-07-24T16:49:41Z] INFO     - File already exists, not overwriting '/Users/brianter/Documents/github/example-time-resource/.gitignore'
+[2020-07-24T16:49:41Z] DEBUG    - Making source folder structure: /Users/brianter/Documents/github/example-time-resource/cmd/resource
+[2020-07-24T16:49:41Z] DEBUG    - Writing go.mod: /Users/brianter/Documents/github/example-time-resource/go.mod
+[2020-07-24T16:49:41Z] DEBUG    - Writing SAM template: /Users/brianter/Documents/github/example-time-resource/template.yml
+[2020-07-24T16:49:41Z] DEBUG    - Writing handlers and tests
+[2020-07-24T16:49:41Z] DEBUG    - Writing stub handlers
+[2020-07-24T16:49:41Z] DEBUG    - Writing README: /Users/brianter/Documents/github/example-time-resource/README.md
+[2020-07-24T16:49:41Z] INFO     - File already exists, not overwriting '/Users/brianter/Documents/github/example-time-resource/README.md'
+[2020-07-24T16:49:41Z] DEBUG    - Init complete
+[2020-07-24T16:49:41Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/.rpdk-config'
+[2020-07-24T16:49:41Z] DEBUG    - Writing Resource Role CloudFormation template: /Users/brianter/Documents/github/example-time-resource/resource-role.yaml
+[2020-07-24T16:49:41Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/resource-role.yaml'
+[2020-07-24T16:49:41Z] DEBUG    - Generate started
+[2020-07-24T16:49:41Z] DEBUG    - Writing Types
+[2020-07-24T16:49:41Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/cmd/resource/model.go'
+[2020-07-24T16:49:41Z] DEBUG    - Writing project: /Users/brianter/Documents/github/example-time-resource/cmd/main.go
+[2020-07-24T16:49:41Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/cmd/main.go'
+[2020-07-24T16:49:41Z] DEBUG    - Writing Makefile: /Users/brianter/Documents/github/example-time-resource/Makefile
+[2020-07-24T16:49:41Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/Makefile'
+[2020-07-24T16:49:45Z] DEBUG    - Removing generated docs: /Users/brianter/Documents/github/example-time-resource/docs
+[2020-07-24T16:49:45Z] DEBUG    - Writing generated docs
+[2020-07-24T16:49:45Z] DEBUG    - Writing docs memo.md: /Users/brianter/Documents/github/example-time-resource/docs/memo.md
+[2020-07-24T16:49:45Z] DEBUG    - Writing docs memo.md: /Users/brianter/Documents/github/example-time-resource/docs/memo.md
+[2020-07-24T16:49:45Z] INFO     - File already exists, not overwriting '/Users/brianter/Documents/github/example-time-resource/docs/memo.md'
+[2020-07-24T16:49:45Z] DEBUG    - Finished documenting nested properties
+[2020-07-24T16:49:45Z] DEBUG    - Writing docs README: /Users/brianter/Documents/github/example-time-resource/docs/README.md
+[2020-07-24T16:49:45Z] WARNING  - Initialized a new project in /Users/brianter/Documents/github/example-time-resource
+[2020-07-24T16:49:45Z] DEBUG    - Finished init

@@ -1,0 +1,64 @@
+{
+    "typeName": "Example::Time::Resource",
+    "description": "This resource test async call.",
+    "sourceUrl": "https://ineedhelpbrian.com",
+    "properties": {
+        "PDID": {
+            "description": "Unique identifier",
+            "type": "string",
+            "pattern": "^[A-Z0-9]{7}$"
+        },
+        "Sleep": {
+            "description": "function sleep time in seconds",
+            "type": "integer"
+        },
+        "Delay": {
+            "description": "Callback delay in seconds",
+            "type": "integer"
+        },
+        "Enviroment":{
+            "description": "The Enviroment of the resource",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "Sleep"
+    ],
+    "readOnlyProperties": [
+        "/properties/PDID"
+    ],
+    "primaryIdentifier": [
+        "/properties/PDID",
+        "/properties/Enviroment"
+    ],
+    "handlers": {
+        "create": {
+            "permissions": [
+                "ssm:GetParameter",
+                "kms:Decrypt"
+            ]
+        },
+        "read": {
+            "permissions": [
+                "ssm:GetParameter",
+                "kms:Decrypt"
+            ]
+        },
+        "update": {
+            "permissions": [
+                "ssm:GetParameter",
+                "kms:Decrypt"
+            ]
+        },
+        "delete": {
+            "permissions": [
+                "ssm:GetParameter",
+                "kms:Decrypt"
+            ]
+        },
+        "list": {
+            "permissions": []
+        }
+    }
+}

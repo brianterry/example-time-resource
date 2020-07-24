@@ -1,0 +1,12 @@
+{
+    "typeName": "Example::Time::Resource",
+    "language": "go",
+    "runtime": "go1.x",
+    "entrypoint": "handler",
+    "testEntrypoint": "handler",
+    "settings": {
+        "importpath": "github.com/brianterry/example-time-resource",
+        "protocolVersion": "2.0.0",
+        "pluginVersion": "2.0.0"
+    }
+}
