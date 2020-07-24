@@ -6,6 +6,7 @@ import (
 	"time"
 
 	"github.com/aws-cloudformation/cloudformation-cli-go-plugin/cfn/handler"
+	"github.com/aws/aws-sdk-go/aws"
 )
 
 const charset = "abcdefghijklmnopqrstuvwxyz" +
@@ -40,9 +41,13 @@ func Create(req handler.Request, prevModel *Model, currentModel *Model) (handler
 			return r, nil
 		}
 	}
-	var c map[string]interface{}
+	c := make(map[string]interface{})
 
-	c["status"] = "Creating"
+	c["status"] = "recall"
+
+	i := IDCreate(8)
+
+	currentModel.PDID = aws.String(i)
 
 	r := handler.ProgressEvent{
 		CallbackContext:      c,

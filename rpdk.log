@@ -77,3 +77,165 @@
 [2020-07-24T17:23:29Z] DEBUG    - Writing docs README: /Users/brianter/Documents/github/example-time-resource/docs/README.md
 [2020-07-24T17:23:29Z] WARNING  - Generated files for Example::Time::Resource
 [2020-07-24T17:23:29Z] DEBUG    - Finished generate
+[2020-07-24T17:24:28Z] DEBUG    - Logging set up successfully
+[2020-07-24T17:24:28Z] DEBUG    - Running submit: Namespace(command=<function submit at 0x10eab6378>, dry_run=False, endpoint_url=None, region=None, role_arn=None, set_default=False, subparser_name='submit', use_role=True, verbose=1, version=False)
+[2020-07-24T17:24:28Z] DEBUG    - Root directory: /Users/brianter/Documents/github/example-time-resource
+[2020-07-24T17:24:28Z] DEBUG    - Loading project file '/Users/brianter/Documents/github/example-time-resource/.rpdk-config'
+[2020-07-24T17:24:29Z] INFO     - Validating your resource specification...
+[2020-07-24T17:24:29Z] DEBUG    - Rewriting refs in '<BASE>' (file:///Users/brianter/Documents/github/example-time-resource/example-time-resource.json)
+[2020-07-24T17:24:29Z] DEBUG    - overrides.json not found. Not writing to package.
+[2020-07-24T17:24:29Z] DEBUG    - inputs not found. Not writing to package.
+[2020-07-24T17:24:29Z] INFO     - Packaging Go project
+[2020-07-24T17:24:29Z] DEBUG    - Packaging complete, uploading...
+[2020-07-24T17:24:29Z] DEBUG    - Uploading to region 'us-east-1'
+[2020-07-24T17:24:29Z] DEBUG    - Creating execution role for provider to use
+[2020-07-24T17:24:29Z] INFO     - Creating example-time-resource-role-stack
+[2020-07-24T17:24:29Z] DEBUG    - Waiting for stack 'arn:aws:cloudformation:us-east-1:029670897092:stack/example-time-resource-role-stack/88348130-cdd2-11ea-bc6a-0aa958b6917a'
+[2020-07-24T17:24:55Z] INFO     - example-time-resource-role-stack stack was successfully created
+[2020-07-24T17:24:55Z] INFO     - Creating CloudFormationManagedUploadInfrastructure
+[2020-07-24T17:24:55Z] INFO     - CloudFormationManagedUploadInfrastructure already exists. Attempting to update
+[2020-07-24T17:24:55Z] INFO     - CloudFormationManagedUploadInfrastructure stack is up to date
+[2020-07-24T17:24:56Z] DEBUG    - Uploading to 'cloudformationmanageduploadinfrast-artifactbucket-1na8ownacf4ss/example-time-resource-2020-07-24T17-24-56.zip'...
+[2020-07-24T17:24:58Z] DEBUG    - Upload complete
+[2020-07-24T17:24:58Z] DEBUG    - Got S3 URL: s3://cloudformationmanageduploadinfrast-artifactbucket-1na8ownacf4ss/example-time-resource-2020-07-24T17-24-56.zip
+[2020-07-24T17:24:58Z] DEBUG    - Got Log Role: arn:aws:iam::029670897092:role/CloudFormationManagedUplo-LogAndMetricsDeliveryRol-CR1NPJ0Q9XGX
+[2020-07-24T17:24:59Z] WARNING  - Successfully submitted type. Waiting for registration with token 'ef6187b8-aa91-4e6f-9781-a899516a70dd' to complete.
+[2020-07-24T17:26:30Z] WARNING  - Registration complete.
+[2020-07-24T17:26:30Z] WARNING  - {'ProgressStatus': 'COMPLETE', 'Description': 'Deployment is currently in DEPLOY_STAGE of status COMPLETED; ', 'TypeArn': 'arn:aws:cloudformation:us-east-1:029670897092:type/resource/Example-Time-Resource', 'TypeVersionArn': 'arn:aws:cloudformation:us-east-1:029670897092:type/resource/Example-Time-Resource/00000001', 'ResponseMetadata': {'RequestId': 'b1976b54-98a5-4d47-8a48-1f8a46047957', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': 'b1976b54-98a5-4d47-8a48-1f8a46047957', 'content-type': 'text/xml', 'content-length': '681', 'date': 'Fri, 24 Jul 2020 17:26:30 GMT'}, 'RetryAttempts': 0}}
+[2020-07-24T17:26:30Z] DEBUG    - Finished submit
+[2020-07-24T17:38:01Z] DEBUG    - Logging set up successfully
+[2020-07-24T17:38:01Z] DEBUG    - Running generate: Namespace(command=<function generate at 0x10b8cd8c8>, subparser_name='generate', verbose=0, version=False)
+[2020-07-24T17:38:01Z] DEBUG    - Root directory: /Users/brianter/Documents/github/example-time-resource
+[2020-07-24T17:38:01Z] DEBUG    - Loading project file '/Users/brianter/Documents/github/example-time-resource/.rpdk-config'
+[2020-07-24T17:38:01Z] INFO     - Validating your resource specification...
+[2020-07-24T17:38:01Z] DEBUG    - Rewriting refs in '<BASE>' (file:///Users/brianter/Documents/github/example-time-resource/example-time-resource.json)
+[2020-07-24T17:38:01Z] DEBUG    - Writing Resource Role CloudFormation template: /Users/brianter/Documents/github/example-time-resource/resource-role.yaml
+[2020-07-24T17:38:01Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/resource-role.yaml'
+[2020-07-24T17:38:01Z] DEBUG    - Generate started
+[2020-07-24T17:38:01Z] DEBUG    - Writing Types
+[2020-07-24T17:38:01Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/cmd/resource/model.go'
+[2020-07-24T17:38:01Z] DEBUG    - Writing project: /Users/brianter/Documents/github/example-time-resource/cmd/main.go
+[2020-07-24T17:38:01Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/cmd/main.go'
+[2020-07-24T17:38:01Z] DEBUG    - Writing Makefile: /Users/brianter/Documents/github/example-time-resource/Makefile
+[2020-07-24T17:38:01Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/Makefile'
+[2020-07-24T17:38:02Z] DEBUG    - Removing generated docs: /Users/brianter/Documents/github/example-time-resource/docs
+[2020-07-24T17:38:02Z] DEBUG    - Writing generated docs
+[2020-07-24T17:38:02Z] DEBUG    - Finished documenting nested properties
+[2020-07-24T17:38:02Z] DEBUG    - Writing docs README: /Users/brianter/Documents/github/example-time-resource/docs/README.md
+[2020-07-24T17:38:02Z] WARNING  - Generated files for Example::Time::Resource
+[2020-07-24T17:38:02Z] DEBUG    - Finished generate
+[2020-07-24T17:38:15Z] DEBUG    - Logging set up successfully
+[2020-07-24T17:38:15Z] DEBUG    - Running generate: Namespace(command=<function generate at 0x10456f8c8>, subparser_name='generate', verbose=0, version=False)
+[2020-07-24T17:38:15Z] DEBUG    - Root directory: /Users/brianter/Documents/github/example-time-resource
+[2020-07-24T17:38:15Z] DEBUG    - Loading project file '/Users/brianter/Documents/github/example-time-resource/.rpdk-config'
+[2020-07-24T17:38:16Z] INFO     - Validating your resource specification...
+[2020-07-24T17:38:16Z] DEBUG    - Rewriting refs in '<BASE>' (file:///Users/brianter/Documents/github/example-time-resource/example-time-resource.json)
+[2020-07-24T17:38:16Z] DEBUG    - Writing Resource Role CloudFormation template: /Users/brianter/Documents/github/example-time-resource/resource-role.yaml
+[2020-07-24T17:38:16Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/resource-role.yaml'
+[2020-07-24T17:38:16Z] DEBUG    - Generate started
+[2020-07-24T17:38:16Z] DEBUG    - Writing Types
+[2020-07-24T17:38:16Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/cmd/resource/model.go'
+[2020-07-24T17:38:16Z] DEBUG    - Writing project: /Users/brianter/Documents/github/example-time-resource/cmd/main.go
+[2020-07-24T17:38:16Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/cmd/main.go'
+[2020-07-24T17:38:16Z] DEBUG    - Writing Makefile: /Users/brianter/Documents/github/example-time-resource/Makefile
+[2020-07-24T17:38:16Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/Makefile'
+[2020-07-24T17:38:17Z] DEBUG    - Removing generated docs: /Users/brianter/Documents/github/example-time-resource/docs
+[2020-07-24T17:38:17Z] DEBUG    - Writing generated docs
+[2020-07-24T17:38:17Z] DEBUG    - Finished documenting nested properties
+[2020-07-24T17:38:17Z] DEBUG    - Writing docs README: /Users/brianter/Documents/github/example-time-resource/docs/README.md
+[2020-07-24T17:38:17Z] WARNING  - Generated files for Example::Time::Resource
+[2020-07-24T17:38:17Z] DEBUG    - Finished generate
+[2020-07-24T17:38:31Z] DEBUG    - Logging set up successfully
+[2020-07-24T17:38:31Z] DEBUG    - Running submit: Namespace(command=<function submit at 0x1029ee378>, dry_run=False, endpoint_url=None, region=None, role_arn=None, set_default=False, subparser_name='submit', use_role=True, verbose=1, version=False)
+[2020-07-24T17:38:31Z] DEBUG    - Root directory: /Users/brianter/Documents/github/example-time-resource
+[2020-07-24T17:38:31Z] DEBUG    - Loading project file '/Users/brianter/Documents/github/example-time-resource/.rpdk-config'
+[2020-07-24T17:38:31Z] INFO     - Validating your resource specification...
+[2020-07-24T17:38:31Z] DEBUG    - Rewriting refs in '<BASE>' (file:///Users/brianter/Documents/github/example-time-resource/example-time-resource.json)
+[2020-07-24T17:38:31Z] DEBUG    - overrides.json not found. Not writing to package.
+[2020-07-24T17:38:31Z] DEBUG    - inputs not found. Not writing to package.
+[2020-07-24T17:38:31Z] INFO     - Packaging Go project
+[2020-07-24T17:38:31Z] DEBUG    - Packaging complete, uploading...
+[2020-07-24T17:38:31Z] DEBUG    - Uploading to region 'us-east-1'
+[2020-07-24T17:38:31Z] DEBUG    - Creating execution role for provider to use
+[2020-07-24T17:38:31Z] INFO     - Creating example-time-resource-role-stack
+[2020-07-24T17:38:32Z] INFO     - example-time-resource-role-stack already exists. Attempting to update
+[2020-07-24T17:38:32Z] INFO     - example-time-resource-role-stack stack is up to date
+[2020-07-24T17:38:32Z] INFO     - Creating CloudFormationManagedUploadInfrastructure
+[2020-07-24T17:38:32Z] INFO     - CloudFormationManagedUploadInfrastructure already exists. Attempting to update
+[2020-07-24T17:38:32Z] INFO     - CloudFormationManagedUploadInfrastructure stack is up to date
+[2020-07-24T17:38:33Z] DEBUG    - Uploading to 'cloudformationmanageduploadinfrast-artifactbucket-1na8ownacf4ss/example-time-resource-2020-07-24T17-38-33.zip'...
+[2020-07-24T17:38:35Z] DEBUG    - Upload complete
+[2020-07-24T17:38:35Z] DEBUG    - Got S3 URL: s3://cloudformationmanageduploadinfrast-artifactbucket-1na8ownacf4ss/example-time-resource-2020-07-24T17-38-33.zip
+[2020-07-24T17:38:35Z] DEBUG    - Got Log Role: arn:aws:iam::029670897092:role/CloudFormationManagedUplo-LogAndMetricsDeliveryRol-CR1NPJ0Q9XGX
+[2020-07-24T17:38:35Z] WARNING  - Successfully submitted type. Waiting for registration with token 'b30e5d28-1985-4141-8f60-b550bde37d3b' to complete.
+[2020-07-24T17:39:35Z] WARNING  - Registration complete.
+[2020-07-24T17:39:35Z] WARNING  - {'ProgressStatus': 'COMPLETE', 'Description': 'Deployment is currently in DEPLOY_STAGE of status COMPLETED; ', 'TypeArn': 'arn:aws:cloudformation:us-east-1:029670897092:type/resource/Example-Time-Resource', 'TypeVersionArn': 'arn:aws:cloudformation:us-east-1:029670897092:type/resource/Example-Time-Resource/00000002', 'ResponseMetadata': {'RequestId': '31fe9d6a-c0ab-4a73-b896-084b62299fd7', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': '31fe9d6a-c0ab-4a73-b896-084b62299fd7', 'content-type': 'text/xml', 'content-length': '681', 'date': 'Fri, 24 Jul 2020 17:39:35 GMT'}, 'RetryAttempts': 0}}
+[2020-07-24T17:39:35Z] DEBUG    - Finished submit
+[2020-07-24T17:44:56Z] DEBUG    - Logging set up successfully
+[2020-07-24T17:44:56Z] DEBUG    - Running generate: Namespace(command=<function generate at 0x1088588c8>, subparser_name='generate', verbose=0, version=False)
+[2020-07-24T17:44:56Z] DEBUG    - Root directory: /Users/brianter/Documents/github/example-time-resource
+[2020-07-24T17:44:56Z] DEBUG    - Loading project file '/Users/brianter/Documents/github/example-time-resource/.rpdk-config'
+[2020-07-24T17:44:56Z] INFO     - Validating your resource specification...
+[2020-07-24T17:44:57Z] DEBUG    - Rewriting refs in '<BASE>' (file:///Users/brianter/Documents/github/example-time-resource/example-time-resource.json)
+[2020-07-24T17:44:57Z] DEBUG    - Writing Resource Role CloudFormation template: /Users/brianter/Documents/github/example-time-resource/resource-role.yaml
+[2020-07-24T17:44:57Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/resource-role.yaml'
+[2020-07-24T17:44:57Z] DEBUG    - Generate started
+[2020-07-24T17:44:57Z] DEBUG    - Writing Types
+[2020-07-24T17:44:57Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/cmd/resource/model.go'
+[2020-07-24T17:44:57Z] DEBUG    - Writing project: /Users/brianter/Documents/github/example-time-resource/cmd/main.go
+[2020-07-24T17:44:57Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/cmd/main.go'
+[2020-07-24T17:44:57Z] DEBUG    - Writing Makefile: /Users/brianter/Documents/github/example-time-resource/Makefile
+[2020-07-24T17:44:57Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/Makefile'
+[2020-07-24T17:44:58Z] DEBUG    - Removing generated docs: /Users/brianter/Documents/github/example-time-resource/docs
+[2020-07-24T17:44:58Z] DEBUG    - Writing generated docs
+[2020-07-24T17:44:58Z] DEBUG    - Finished documenting nested properties
+[2020-07-24T17:44:58Z] DEBUG    - Writing docs README: /Users/brianter/Documents/github/example-time-resource/docs/README.md
+[2020-07-24T17:44:58Z] WARNING  - Generated files for Example::Time::Resource
+[2020-07-24T17:44:58Z] DEBUG    - Finished generate
+[2020-07-24T17:45:11Z] DEBUG    - Logging set up successfully
+[2020-07-24T17:45:11Z] DEBUG    - Running submit: Namespace(command=<function submit at 0x110b5e378>, dry_run=False, endpoint_url=None, region=None, role_arn=None, set_default=False, subparser_name='submit', use_role=True, verbose=1, version=False)
+[2020-07-24T17:45:11Z] DEBUG    - Root directory: /Users/brianter/Documents/github/example-time-resource
+[2020-07-24T17:45:11Z] DEBUG    - Loading project file '/Users/brianter/Documents/github/example-time-resource/.rpdk-config'
+[2020-07-24T17:45:12Z] INFO     - Validating your resource specification...
+[2020-07-24T17:45:12Z] DEBUG    - Rewriting refs in '<BASE>' (file:///Users/brianter/Documents/github/example-time-resource/example-time-resource.json)
+[2020-07-24T17:45:12Z] DEBUG    - overrides.json not found. Not writing to package.
+[2020-07-24T17:45:12Z] DEBUG    - inputs not found. Not writing to package.
+[2020-07-24T17:45:12Z] INFO     - Packaging Go project
+[2020-07-24T17:45:12Z] DEBUG    - Packaging complete, uploading...
+[2020-07-24T17:45:12Z] DEBUG    - Uploading to region 'us-east-1'
+[2020-07-24T17:45:12Z] DEBUG    - Creating execution role for provider to use
+[2020-07-24T17:45:12Z] INFO     - Creating example-time-resource-role-stack
+[2020-07-24T17:45:12Z] INFO     - example-time-resource-role-stack already exists. Attempting to update
+[2020-07-24T17:45:12Z] INFO     - example-time-resource-role-stack stack is up to date
+[2020-07-24T17:45:13Z] INFO     - Creating CloudFormationManagedUploadInfrastructure
+[2020-07-24T17:45:13Z] INFO     - CloudFormationManagedUploadInfrastructure already exists. Attempting to update
+[2020-07-24T17:45:13Z] INFO     - CloudFormationManagedUploadInfrastructure stack is up to date
+[2020-07-24T17:45:13Z] DEBUG    - Uploading to 'cloudformationmanageduploadinfrast-artifactbucket-1na8ownacf4ss/example-time-resource-2020-07-24T17-45-13.zip'...
+[2020-07-24T17:45:15Z] DEBUG    - Upload complete
+[2020-07-24T17:45:15Z] DEBUG    - Got S3 URL: s3://cloudformationmanageduploadinfrast-artifactbucket-1na8ownacf4ss/example-time-resource-2020-07-24T17-45-13.zip
+[2020-07-24T17:45:15Z] DEBUG    - Got Log Role: arn:aws:iam::029670897092:role/CloudFormationManagedUplo-LogAndMetricsDeliveryRol-CR1NPJ0Q9XGX
+[2020-07-24T17:45:15Z] WARNING  - Successfully submitted type. Waiting for registration with token '068a345b-b3ca-4733-aaeb-aa9e472ba3fc' to complete.
+[2020-07-24T17:46:16Z] WARNING  - Registration complete.
+[2020-07-24T17:46:16Z] WARNING  - {'ProgressStatus': 'COMPLETE', 'Description': 'Deployment is currently in DEPLOY_STAGE of status COMPLETED; ', 'TypeArn': 'arn:aws:cloudformation:us-east-1:029670897092:type/resource/Example-Time-Resource', 'TypeVersionArn': 'arn:aws:cloudformation:us-east-1:029670897092:type/resource/Example-Time-Resource/00000003', 'ResponseMetadata': {'RequestId': 'a4d0ae20-4828-41de-ac16-85372e0ea1a5', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': 'a4d0ae20-4828-41de-ac16-85372e0ea1a5', 'content-type': 'text/xml', 'content-length': '681', 'date': 'Fri, 24 Jul 2020 17:46:15 GMT'}, 'RetryAttempts': 0}}
+[2020-07-24T17:46:16Z] DEBUG    - Finished submit
+[2020-07-24T17:48:43Z] DEBUG    - Logging set up successfully
+[2020-07-24T17:48:43Z] DEBUG    - Running generate: Namespace(command=<function generate at 0x10836d8c8>, subparser_name='generate', verbose=0, version=False)
+[2020-07-24T17:48:43Z] DEBUG    - Root directory: /Users/brianter/Documents/github/example-time-resource
+[2020-07-24T17:48:43Z] DEBUG    - Loading project file '/Users/brianter/Documents/github/example-time-resource/.rpdk-config'
+[2020-07-24T17:48:44Z] INFO     - Validating your resource specification...
+[2020-07-24T17:48:44Z] DEBUG    - Rewriting refs in '<BASE>' (file:///Users/brianter/Documents/github/example-time-resource/example-time-resource.json)
+[2020-07-24T17:48:44Z] DEBUG    - Writing Resource Role CloudFormation template: /Users/brianter/Documents/github/example-time-resource/resource-role.yaml
+[2020-07-24T17:48:44Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/resource-role.yaml'
+[2020-07-24T17:48:44Z] DEBUG    - Generate started
+[2020-07-24T17:48:44Z] DEBUG    - Writing Types
+[2020-07-24T17:48:44Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/cmd/resource/model.go'
+[2020-07-24T17:48:44Z] DEBUG    - Writing project: /Users/brianter/Documents/github/example-time-resource/cmd/main.go
+[2020-07-24T17:48:44Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/cmd/main.go'
+[2020-07-24T17:48:44Z] DEBUG    - Writing Makefile: /Users/brianter/Documents/github/example-time-resource/Makefile
+[2020-07-24T17:48:44Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/Makefile'
+[2020-07-24T17:48:45Z] DEBUG    - Removing generated docs: /Users/brianter/Documents/github/example-time-resource/docs
+[2020-07-24T17:48:45Z] DEBUG    - Writing generated docs
+[2020-07-24T17:48:45Z] DEBUG    - Finished documenting nested properties
+[2020-07-24T17:48:45Z] DEBUG    - Writing docs README: /Users/brianter/Documents/github/example-time-resource/docs/README.md
+[2020-07-24T17:48:45Z] WARNING  - Generated files for Example::Time::Resource
+[2020-07-24T17:48:45Z] DEBUG    - Finished generate
