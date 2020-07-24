@@ -12,7 +12,7 @@
         }
     },
     "Resources": {
-        "unicorn": {
+        "time": {
             "Type": "testing::resource::time",
             "Properties": {
                 "Sleep": {
@@ -20,8 +20,7 @@
                 },
                 "Delay": {
                     "Ref": "DelayTime"
-                },
-                "Enviroment": "dev"
+                }
             }
         }
     },
@@ -29,8 +28,8 @@
         "ID" : {
           "Description" : "The key",
           "Value" : {
-            "Ref": "unicorn"
+            "Ref": "time"
         }
       }
     }
-}%
+}

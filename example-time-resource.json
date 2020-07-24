@@ -15,10 +15,6 @@
         "Delay": {
             "description": "Callback delay in seconds",
             "type": "integer"
-        },
-        "Enviroment":{
-            "description": "The Enviroment of the resource",
-            "type": "string"
         }
     },
     "additionalProperties": false,
@@ -29,33 +25,20 @@
         "/properties/PDID"
     ],
     "primaryIdentifier": [
-        "/properties/PDID",
-        "/properties/Enviroment"
+        "/properties/PDID"
     ],
     "handlers": {
         "create": {
-            "permissions": [
-                "ssm:GetParameter",
-                "kms:Decrypt"
-            ]
+            "permissions": []
         },
         "read": {
-            "permissions": [
-                "ssm:GetParameter",
-                "kms:Decrypt"
-            ]
+            "permissions": []
         },
         "update": {
-            "permissions": [
-                "ssm:GetParameter",
-                "kms:Decrypt"
-            ]
+            "permissions": []
         },
         "delete": {
-            "permissions": [
-                "ssm:GetParameter",
-                "kms:Decrypt"
-            ]
+            "permissions": []
         },
         "list": {
             "permissions": []
