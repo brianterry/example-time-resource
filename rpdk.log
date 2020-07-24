@@ -56,3 +56,24 @@
 [2020-07-24T17:16:34Z] DEBUG    - Writing docs README: /Users/brianter/Documents/github/example-time-resource/docs/README.md
 [2020-07-24T17:16:34Z] WARNING  - Generated files for Example::Time::Resource
 [2020-07-24T17:16:34Z] DEBUG    - Finished generate
+[2020-07-24T17:23:28Z] DEBUG    - Logging set up successfully
+[2020-07-24T17:23:28Z] DEBUG    - Running generate: Namespace(command=<function generate at 0x1021d48c8>, subparser_name='generate', verbose=0, version=False)
+[2020-07-24T17:23:28Z] DEBUG    - Root directory: /Users/brianter/Documents/github/example-time-resource
+[2020-07-24T17:23:28Z] DEBUG    - Loading project file '/Users/brianter/Documents/github/example-time-resource/.rpdk-config'
+[2020-07-24T17:23:28Z] INFO     - Validating your resource specification...
+[2020-07-24T17:23:28Z] DEBUG    - Rewriting refs in '<BASE>' (file:///Users/brianter/Documents/github/example-time-resource/example-time-resource.json)
+[2020-07-24T17:23:28Z] DEBUG    - Writing Resource Role CloudFormation template: /Users/brianter/Documents/github/example-time-resource/resource-role.yaml
+[2020-07-24T17:23:28Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/resource-role.yaml'
+[2020-07-24T17:23:28Z] DEBUG    - Generate started
+[2020-07-24T17:23:28Z] DEBUG    - Writing Types
+[2020-07-24T17:23:28Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/cmd/resource/model.go'
+[2020-07-24T17:23:28Z] DEBUG    - Writing project: /Users/brianter/Documents/github/example-time-resource/cmd/main.go
+[2020-07-24T17:23:28Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/cmd/main.go'
+[2020-07-24T17:23:28Z] DEBUG    - Writing Makefile: /Users/brianter/Documents/github/example-time-resource/Makefile
+[2020-07-24T17:23:28Z] DEBUG    - Overwriting '/Users/brianter/Documents/github/example-time-resource/Makefile'
+[2020-07-24T17:23:29Z] DEBUG    - Removing generated docs: /Users/brianter/Documents/github/example-time-resource/docs
+[2020-07-24T17:23:29Z] DEBUG    - Writing generated docs
+[2020-07-24T17:23:29Z] DEBUG    - Finished documenting nested properties
+[2020-07-24T17:23:29Z] DEBUG    - Writing docs README: /Users/brianter/Documents/github/example-time-resource/docs/README.md
+[2020-07-24T17:23:29Z] WARNING  - Generated files for Example::Time::Resource
+[2020-07-24T17:23:29Z] DEBUG    - Finished generate

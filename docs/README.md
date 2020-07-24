@@ -13,8 +13,7 @@ To declare this entity in your AWS CloudFormation template, use the following sy
     "Type" : "Example::Time::Resource",
     "Properties" : {
         "<a href="#sleep" title="Sleep">Sleep</a>" : <i>Double</i>,
-        "<a href="#delay" title="Delay">Delay</a>" : <i>Double</i>,
-        "<a href="#enviroment" title="Enviroment">Enviroment</a>" : <i>String</i>
+        "<a href="#delay" title="Delay">Delay</a>" : <i>Double</i>
     }
 }
 </pre>
@@ -26,7 +25,6 @@ Type: Example::Time::Resource
 Properties:
     <a href="#sleep" title="Sleep">Sleep</a>: <i>Double</i>
     <a href="#delay" title="Delay">Delay</a>: <i>Double</i>
-    <a href="#enviroment" title="Enviroment">Enviroment</a>: <i>String</i>
 </pre>
 
 ## Properties
@@ -51,17 +49,11 @@ _Type_: Double
 
 _Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
-#### Enviroment
-
-The Enviroment of the resource
-
-_Required_: No
-
-_Type_: String
-
-_Update requires_: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
-
 ## Return Values
+
+### Ref
+
+When you pass the logical ID of this resource to the intrinsic `Ref` function, Ref returns the PDID.
 
 ### Fn::GetAtt
 
